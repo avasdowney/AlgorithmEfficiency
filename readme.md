@@ -13,8 +13,8 @@ like to test
 
 | Algorithm      | Average Efficiency | Average Time | Memory Access |
 | -------------- | ------------------ | ------------ | ------------- |
-| Bubble Sort    | O(n^2)             | 23 seconds   | 2,108,039,052 |
-| Selection Sort | O(n^2)             | 4 seconds    | 1,995,928     |
+| Bubble Sort    | O(n^2)             | 12-23 seconds| 2,108,039,052 |
+| Selection Sort | O(n^2)             | 2-4 seconds  | 1,995,928     |
 | Merge Sort     | O(nlog(n))         | 0 seconds    | 8,228,760     |
 | Quick Sort     | O(nlog(n))         | 0 seconds    | 3,173,606     |
 
@@ -37,6 +37,9 @@ It is good to note that my findings are not very inclusive because I only used o
 list of data to sort. Even though my list was 100,000 integers long, it might be
 unproportionaly efficient to one of the algorithms. To combat this, I can try 
 multiple different sets of integers rather than just one, and average my findings.
+I also found that the more I ran and tested my program, the faster it got, even
+though each instance I ran it was different. This is because the JVM tries to
+optimize itself to run more efficiently.
 
 ##### Bubble Sort
 
