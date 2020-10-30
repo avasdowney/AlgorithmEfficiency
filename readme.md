@@ -75,7 +75,7 @@ the entire array has been checked and sorted.
 | Algorithm      | Average Efficiency | Average Time | Memory Access |
 | -------------- | ------------------ | ------------ | ------------- |
 | Linear Search  | O(n)               | 0-1 seconds  | 1 - 100,000   |
-| Binary Search  | O(log(n))          | 0 seconds    | 1 - 16        |
+| Binary Search  | O(log(n))          | 0 seconds    | 1 - 32        |
 
 Binary search, unsurprisingly is the most efficient searching algorithm I tested.
 While both were able to quickly find the key, it has a much lower big O notation 
